@@ -14,8 +14,6 @@
     @license   : Apache 2
 	based on http://eternicode.github.io/bootstrap-datepicker
 */
-mxui.dom.addCss(require.toUrl("BootstrapDatepicker", "css/datepicker.css"));
-mxui.dom.addCss(require.toUrl("BootstrapDatepicker", "css/datepicker3.css"));
 // Required module list. Remove unnecessary modules, you can always get them back from the boilerplate.
 require({
     packages: [{ name: 'jquery', location: '../../widgets/BootstrapDatepicker/lib', main: 'jquery-1.11.2.min' },
